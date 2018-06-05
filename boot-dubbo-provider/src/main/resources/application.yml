@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://127.0.0.1:3306/test
+        username: root
+        password: root
+        # 使用druid数据源
+        driver-class-name: com.mysql.jdbc.Driver
+    thymeleaf: HTML5
+    jpa:
+      show-sql: true
